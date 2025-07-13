@@ -1,0 +1,22 @@
+Array declaration:
+
+int [] arr =  new int[size];
+float[] arr = new float[size];
+
+user defined arrays:
+ Student [] sarr = new Student[size]; //Here student is class name/type
+
+Types:
+1) 1D Arrays
+2) 2D Arrays -> int [][] mat = new int[row][col]; //row is important to be mentioned 
+3) Multidimentional Arrays
+3D Array:
+int [][][] arr = new int[no of 2D][rows->no of 1D][cols->Size];
+4D Array:
+int [][][][] arr = new int[no of 3D][no of 2D][rows->no of 1D][cols->Size]; //Datatypes can be changed
+4)Jagged Array: -> each row can have diff col size
+int [][] = new int[4][];
+mat[0]=new int[5];
+mat[1]=new int[7];
+mat[2]=new int[8];
+
