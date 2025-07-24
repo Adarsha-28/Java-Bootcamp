@@ -35,6 +35,6 @@ public class Users{
     }
     @Override
     public String toString(){
-        return "String [ID: "+id+" NAME: "+name+" ADDRESS: "+address+" MOBILE NO: "+mobno+"]";
+        return "[ID: "+id+" NAME: "+name+" ADDRESS: "+address+" MOBILE NO: "+mobno+"]";
     }
 }

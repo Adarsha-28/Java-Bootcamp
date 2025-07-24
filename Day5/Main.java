@@ -20,5 +20,8 @@ class Main{
         
         //arr1 = Arrays.copyOf(arr,size); cannot covert int[] to Integer[] -->want to use generic datatype <T> or use lambda functions
         arr2 = Arrays.copyOf(arr,size);
+        for (int a:arr1){
+            System.out.println(a);
+        }
     }
 }

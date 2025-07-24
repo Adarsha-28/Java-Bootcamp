@@ -8,13 +8,20 @@ public class Read1char{
         Character b;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
-        /*a = (char)br.read();
-        b = br.readLine().charAt(0);*/
+        // a = (char)br.read();
+        // b = br.readLine().charAt(0);  ERROR
 
-        /*a = (char)br.read();
-        b = (char)br.read();*/
+        /*String[] input = br.readLine().split(" ");
+        a = input[0].charAt(0);
+        b = input[1].charAt(0);*/
+
+        // a = (char)br.read();
+        // b = (char)br.read();
 
         
         System.out.println(a+ " "+b);
     }
 }
+
+//read() accepts single char and returns integer
+//readLine() reads entire line and returns string

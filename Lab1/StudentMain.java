@@ -18,7 +18,7 @@ public class StudentMain{
             );
             sarr[i] = s;
         }
-        Arrays.sort(sarr); //sarr is array og objects, also Arrays.sort is to sort the array
+        Arrays.sort(sarr); //sarr is array of objects, also Arrays.sort is to sort the array
         int rank=1;
         for(int i=size-1;i>=0;i--){
             System.out.println(sarr[i]+ " " + rank++);

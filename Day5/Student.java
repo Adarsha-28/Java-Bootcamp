@@ -27,6 +27,6 @@ public class Student{
 
     @Override
     public String toString(){
-        return "String [id="+id+" , Name="+name+"]";
+        return "[id="+id+" , Name="+name+"]";
     }
 }
