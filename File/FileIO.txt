@@ -6,3 +6,25 @@ FileInputStream*/
 
 
 Whatever in IO header if we acces it will sure throw an IO exception so avoid that***** imp
+
+FileWriter
+Buffered Writer
+Print Writer
+
+Project Phase 
+1)Individual Project
+2)idea
+3)console based application
+4)File based Input and Output
+
+LMS
+course
+users
+modules
+Question
+
+
+OOPS CONCEPTS
+-->13 types  but in Java Destructora are not there also cohession and coupling are used in cpp not req in java
+
+1)Class ---> User def dt, contains data mem and member func or contains properties(name,id,..) and behaviours (walk,talk,...)

@@ -10,6 +10,7 @@ public class FileOutput {
         try{
             FileWriter fw = new FileWriter("Input.txt",true);//false is not to append menas create new file named input.txt, if it is true then apprnd the data into the file
             BufferedWriter bw = new BufferedWriter(fw);//inputting only string or char or int only single value can accept
+            //without buffered writer can also this prgm works coz we are not getting any char
             PrintWriter pw = new PrintWriter(bw); //Writing multiple lines
             pw.println("Welcome to Java Programming");
             pw.println("Writing to a file");
