@@ -1,0 +1,8 @@
+import java.io.nio; //nio has path,File and Files
+
+/*Path p = new Path("C:\\Programming file"); to acces all files in folder
+File file = new File(C:\\Programming file\\Filename.txt"); to acces single file
+FileInputStream*/
+
+
+Whatever in IO header if we acces it will sure throw an IO exception so avoid that***** imp
